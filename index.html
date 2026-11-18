@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Night 2026</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="actions.js" defer></script>
+</head>
+<body>
+  <main class="invite">
+    <span class="tag">YOU'RE INVITED</span>
+
+    <h1>NEON<br><span>NIGHT</span></h1>
+    <h2>2026</h2>
+
+    <p class="description">
+      An unforgettable night of music, lights and fun.
+    </p>
+
+    <div class="details">
+      <p>📅 December 12, 2026</p>
+      <p>🕖 7:00 PM</p>
+      <p>📍 Neon Hall — Cali, Colombia</p>
+    </div>
+
+    <label for="guestName">Your Name</label>
+    <input id="guestName" type="text"
+           placeholder="Enter your name">
+
+    <div class="buttons">
+      <button id="yesBtn">I'm Going!</button>
+      <button id="noBtn">Can't Make It</button>
+    </div>
+
+    <p id="response" role="status" aria-live="polite"></p>
+    <p id="count"></p>
+  </main>
+</body>
+</html>
